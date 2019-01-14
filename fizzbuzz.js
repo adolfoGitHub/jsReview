@@ -1,4 +1,5 @@
-/*  Author: Adolfo Gonzalez
+/*
+    Author: Adolfo Gonzalez
     Date: 1/13/2019
 
     File: fizzbuzz.js
@@ -87,9 +88,7 @@ function countChars(sentence, letter){
 /*  Rewrite countBs to use countChar.*/
 
 function countBs(newSentence){
-
-    var rewrite = countChars(newSentence, 'B');
-
-    return rewrite;
+    //countChar call
+    return countChars(newSentence, 'B');
 
 }
