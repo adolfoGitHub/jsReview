@@ -9,15 +9,16 @@
 
 /*  Create a JavaScript program that prints "Introduction to JavaScript"
     to the console window,and test it in your browser.*/
+
 console.log("Introduction to JavaScript");//first test to test console output
 
 //function calls
 fizzBuzz();
 countBs('Blue, Black, Brown, Orange, Green, Yellow');
 countChars('blah,blah,blah,Blah,Bla,Bla', 'a');
+countBs('The sky is BLUE.');
 
 /*  Write the FizzBuzz program described on page 38 of your text. */
-
 function fizzBuzz(){
     //numbers for 1 to 100
     for(var i = 1; i <= 100; i++){
@@ -86,7 +87,6 @@ function countChars(sentence, letter){
 }
 
 /*  Rewrite countBs to use countChar.*/
-
 function countBs(newSentence){
     //countChar call
     return countChars(newSentence, 'B');
